@@ -42,7 +42,7 @@ function CoverSection() {
   return (
     <section className="relative h-screen flex flex-col items-center justify-end overflow-hidden">
       {/* Background Images with Smooth Transition */}
-      <audio controls autoPlay loop>
+      <audio controls autoPlay loop hidden>
         <source src={"/assets/birthday.mp3"} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
