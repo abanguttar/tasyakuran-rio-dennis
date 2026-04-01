@@ -39,7 +39,7 @@ export default function CoverSection() {
       onClick={handlePlayAudio}
       className=" relative h-screen flex flex-col items-center justify-end overflow-hidden"
     >
-      <audio id="audio" controls autoPlay ref={audioRef}>
+      <audio id="audio" hidden controls autoPlay ref={audioRef}>
         <source src="assets/birthday.mp3" type="audio/mp3" />
       </audio>
       {/* Background Images with Smooth Transition */}

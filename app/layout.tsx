@@ -14,15 +14,30 @@ const montserrat = Montserrat({
   weight: ["300", "400", "500", "600"],
 });
 
+const baseUrl = "https://tasyakuran-rio-dennis.netlify.app";
+
 export const metadata: Metadata = {
   title: "Tasyakuran Ulang Tahun Rio dan Dennis",
-  description: "Undangan Ulang Tahung Rio dan Dennis",
+  description: "Undangan Ulang Tahun Rio dan Dennis",
   openGraph: {
     type: "website",
-    url: `/`,
-    title: `Tasyakuran Ulang Tahun Rio dan Dennis`,
-    description: "Tasyakuran Ulang Tahun Rio dan Dennis",
-    images: `/images/invitation.jpeg`,
+    url: baseUrl,
+    title: "Tasyakuran Ulang Tahun Rio dan Dennis",
+    description: "Undangan Ulang Tahun Rio dan Dennis",
+    images: [
+      {
+        url: `${baseUrl}/images/invitation.webp`, // URL absolut lengkap
+        width: 1200,
+        height: 630,
+        alt: "Undangan Ulang Tahun Rio dan Dennis",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image", // Penting untuk tampilan gambar besar
+    title: "Tasyakuran Ulang Tahun Rio dan Dennis",
+    description: "Undangan Ulang Tahun Rio dan Dennis",
+    images: [`${baseUrl}/images/invitation.jpeg`],
   },
 };
 
