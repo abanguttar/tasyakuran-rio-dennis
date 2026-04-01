@@ -17,6 +17,13 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Tasyakuran Ulang Tahun Rio dan Dennis",
   description: "Undangan Ulang Tahung Rio dan Dennis",
+  openGraph: {
+    type: "website",
+    url: `/`,
+    title: `Tasyakuran Ulang Tahun Rio dan Dennis`,
+    description: "Tasyakuran Ulang Tahun Rio dan Dennis",
+    images: `/images/invitation.jpeg`,
+  },
 };
 
 export default function RootLayout({
@@ -29,7 +36,9 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${montserrat.variable} h-full antialiased`}
     >
-      <body className=  {`min-h-full flex flex-col ${montserrat.className}`}>{children}</body>
+      <body className={`min-h-full flex flex-col ${montserrat.className}`}>
+        {children}
+      </body>
     </html>
   );
 }
