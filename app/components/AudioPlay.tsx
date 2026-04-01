@@ -6,7 +6,7 @@ export default function CoverSection() {
 
   function handlePlayAudio() {
     console.log("played");
-
+    // @ts-ignore
     const playPromise = audioRef.current.play();
 
     if (playPromise !== undefined) {
