@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image", // Penting untuk tampilan gambar besar
     title: "Tasyakuran Ulang Tahun Rio dan Dennis",
     description: "Undangan Ulang Tahun Rio dan Dennis",
-    images: [`${baseUrl}/images/invitation.jpeg`],
+    images: [`${baseUrl}/images/invitation.webp`],
   },
 };
 

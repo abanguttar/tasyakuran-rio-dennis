@@ -40,7 +40,7 @@ function SambutanSection() {
           </p>
           <p className="leading-relaxed font-serif">
             Dengan penuh rasa syukur, kami mengundang Bapak/Ibu/Saudara/i untuk
-            Tasyakuran Ulang Tahun bersama kami.
+            Tasyakuran putra dan cucu kami yang bernama:
           </p>
           <div className="bg-red-50 p-6 rounded-xl my-6">
             <p className="font-medium font-serif italic text-rose-800 text-xl mt-2">
